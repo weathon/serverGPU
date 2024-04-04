@@ -1,0 +1,36 @@
+2024-04-03 18:12:07,376 INFO    Thread-38 :858000 [wandb_setup.py:_flush():76] Current SDK version is 0.16.5
+2024-04-03 18:12:07,376 INFO    Thread-38 :858000 [wandb_setup.py:_flush():76] Configure stats pid to 858000
+2024-04-03 18:12:07,376 INFO    Thread-38 :858000 [wandb_setup.py:_flush():76] Loading settings from /home/wg25r/.config/wandb/settings
+2024-04-03 18:12:07,376 INFO    Thread-38 :858000 [wandb_setup.py:_flush():76] Loading settings from /home/wg25r/mol/wandb/settings
+2024-04-03 18:12:07,376 INFO    Thread-38 :858000 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'length prediction sweep', 'entity': '3dsmile', 'root_dir': '/home/wg25r/mol', 'run_id': '3zwlwvbk', 'sweep_param_path': '/home/wg25r/mol/wandb/sweep-x59g86za/config-3zwlwvbk.yaml', 'sweep_id': 'x59g86za'}
+2024-04-03 18:12:07,376 INFO    Thread-38 :858000 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-03 18:12:07,376 INFO    Thread-38 :858000 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'finefune.py', 'program_abspath': '/home/wg25r/mol/finefune.py', 'program': 'finefune.py'}
+2024-04-03 18:12:07,377 INFO    Thread-38 :858000 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-03 18:12:07,377 INFO    Thread-38 :858000 [wandb_init.py:_log_setup():527] Logging user logs to /home/wg25r/mol/wandb/run-20240403_181207-3zwlwvbk/logs/debug.log
+2024-04-03 18:12:07,377 INFO    Thread-38 :858000 [wandb_init.py:_log_setup():528] Logging internal logs to /home/wg25r/mol/wandb/run-20240403_181207-3zwlwvbk/logs/debug-internal.log
+2024-04-03 18:12:07,377 INFO    Thread-38 :858000 [wandb_init.py:init():567] calling init triggers
+2024-04-03 18:12:07,377 INFO    Thread-38 :858000 [wandb_init.py:init():574] wandb.init called with sweep_config: {'dropout': 0.15724657562265287, 'epoch': 2, 'gamma': 0.9563864103032824, 'lr': 0.0005649674267228455}
+config: {}
+2024-04-03 18:12:07,377 INFO    Thread-38 :858000 [wandb_init.py:init():617] starting backend
+2024-04-03 18:12:07,377 INFO    Thread-38 :858000 [wandb_init.py:init():621] setting up manager
+2024-04-03 18:12:07,383 INFO    Thread-38 :858000 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-03 18:12:07,384 INFO    Thread-38 :858000 [wandb_init.py:init():629] backend started and connected
+2024-04-03 18:12:07,390 INFO    Thread-38 :858000 [wandb_run.py:_config_callback():1347] config_cb None None {'dropout': 0.15724657562265287, 'epoch': 2, 'gamma': 0.9563864103032824, 'lr': 0.0005649674267228455}
+2024-04-03 18:12:07,392 INFO    Thread-38 :858000 [wandb_init.py:init():721] updated telemetry
+2024-04-03 18:12:07,525 INFO    Thread-38 :858000 [wandb_init.py:init():754] communicating run to backend with 90.0 second timeout
+2024-04-03 18:12:07,779 INFO    Thread-38 :858000 [wandb_run.py:_on_init():2344] communicating current version
+2024-04-03 18:12:07,910 INFO    Thread-38 :858000 [wandb_run.py:_on_init():2353] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-03 18:12:07,910 INFO    Thread-38 :858000 [wandb_init.py:init():805] starting run threads in backend
+2024-04-03 18:12:13,120 INFO    Thread-38 :858000 [wandb_run.py:_console_start():2323] atexit reg
+2024-04-03 18:12:13,120 INFO    Thread-38 :858000 [wandb_run.py:_redirect():2178] redirect: wrap_raw
+2024-04-03 18:12:13,120 INFO    Thread-38 :858000 [wandb_run.py:_redirect():2243] Wrapping output streams.
+2024-04-03 18:12:13,120 INFO    Thread-38 :858000 [wandb_run.py:_redirect():2268] Redirects installed.
+2024-04-03 18:12:13,121 INFO    Thread-38 :858000 [wandb_init.py:init():848] run started, returning control to user process
+2024-04-03 18:14:11,335 INFO    Thread-38 :858000 [wandb_run.py:_finish():2052] finishing run 3dsmile/length prediction sweep/3zwlwvbk
+2024-04-03 18:14:11,336 INFO    Thread-38 :858000 [wandb_run.py:_atexit_cleanup():2292] got exitcode: 0
+2024-04-03 18:14:11,336 INFO    Thread-38 :858000 [wandb_run.py:_restore():2275] restore
+2024-04-03 18:14:11,336 INFO    Thread-38 :858000 [wandb_run.py:_restore():2281] restore done
+2024-04-03 18:14:14,765 INFO    Thread-38 :858000 [wandb_run.py:_footer_history_summary_info():3920] rendering history
+2024-04-03 18:14:14,766 INFO    Thread-38 :858000 [wandb_run.py:_footer_history_summary_info():3952] rendering summary
+2024-04-03 18:14:14,773 INFO    Thread-38 :858000 [wandb_run.py:_footer_sync_info():3879] logging synced files

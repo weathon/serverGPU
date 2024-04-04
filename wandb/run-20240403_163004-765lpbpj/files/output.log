@@ -1,0 +1,14 @@
+
+0.0005572473602051692 0.9865237150288334 4 0.1877397430344046
+Traceback (most recent call last):
+  File "finefune.py", line 381, in <module>
+    train()
+  File "finefune.py", line 315, in train
+    import pylab
+ModuleNotFoundError: No module named 'pylab'
+Traceback (most recent call last):
+  File "finefune.py", line 381, in <module>
+    train()
+  File "finefune.py", line 315, in train
+    import pylab
+ModuleNotFoundError: No module named 'pylab'

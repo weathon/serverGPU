@@ -1,0 +1,69 @@
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (2.2.1) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+Traceback (most recent call last):
+  File "main.py", line 1, in <module>
+    import torch, torchvision
+ModuleNotFoundError: No module named 'torchvision'
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (2.2.1) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+Traceback (most recent call last):
+  File "main.py", line 6, in <module>
+    mod = torch.load("sweep.pt", map_location=device) 
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1026, in load
+    return _load(opened_zipfile,
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1438, in _load
+    result = unpickler.load()
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1431, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'Image2SMILES' on <module '__main__' from 'main.py'>
+/usr/lib/python3/dist-packages/requests/__init__.py:89: RequestsDependencyWarning: urllib3 (2.2.1) or chardet (3.0.4) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({}) doesn't match a supported "
+Traceback (most recent call last):
+  File "main.py", line 6, in <module>
+    mod = torch.load("sweep.pt", map_location=device) 
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1026, in load
+    return _load(opened_zipfile,
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1438, in _load
+    result = unpickler.load()
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1431, in find_class
+    return super().find_class(mod_name, name)
+AttributeError: Can't get attribute 'Image2SMILES' on <module '__main__' from 'main.py'>
+286_13144353196490932.png
+
+<start>C(C(=O)O)ON<end><end><end><end><end><end><end>
+<start>C(C(=O)O)(ON)O<end><end><end><end>
+<start>C(C(=O)O)(ON)ON<end><end><end>
+<start>(C(C(=O)O)ON)O<end><end><end>
+<start>C(=O)(C(=O)O)ON<end><end><end><end>
+<start>C(C(=O)[O-])ON<end><end><end><end>
+<start>C(C(C(=O)O)ON)O<end><end>
+<start>(C(C(=O)O)O)ON<end><end><end><end>
+<start>C(C(C(=O)O)ON)ON<end>
+<start>(C(C=O)O)ON<end><end><end><end><end><end>
+tensor([0.9598, 0.0141, 0.0048, 0.0027, 0.0024, 0.0021, 0.0011, 0.0011, 0.0013,
+        0.0025], device='cuda:0')
+1
+2
+3
+4
+1
+2
+3
+4
+1
+2
+3
+4
+1
+2
+3
+4
+1
+2
+3
+4
+1
+2
+3
+4
+[[203, 231, 237, 239], [196, 223, 204, 216], [190, 222, 197, 170], [198, 220, 196, 166], [210, 220, 175, 155], [210, 222, 168, 148]]

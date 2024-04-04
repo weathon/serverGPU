@@ -1,0 +1,44 @@
+Traceback (most recent call last):
+  File "finefune.py", line 381, in <module>
+    train()
+  File "finefune.py", line 287, in train
+    mod = torch.load("256.pt", map_location=device)
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1026, in load
+    return _load(opened_zipfile,
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1438, in _load
+    result = unpickler.load()
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1408, in persistent_load
+    typed_storage = load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1382, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1311, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 391, in default_restore_location
+    result = fn(storage, location)
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 271, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/_utils.py", line 118, in _cuda
+    untyped_storage.copy_(self, non_blocking)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "finefune.py", line 381, in <module>
+    train()
+  File "finefune.py", line 287, in train
+    mod = torch.load("256.pt", map_location=device)
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1026, in load
+    return _load(opened_zipfile,
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1438, in _load
+    result = unpickler.load()
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1408, in persistent_load
+    typed_storage = load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1382, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 1311, in restore_location
+    return default_restore_location(storage, str(map_location))
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 391, in default_restore_location
+    result = fn(storage, location)
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/serialization.py", line 271, in _cuda_deserialize
+    return obj.cuda(device)
+  File "/home/wg25r/.local/lib/python3.8/site-packages/torch/_utils.py", line 118, in _cuda
+    untyped_storage.copy_(self, non_blocking)
+KeyboardInterrupt

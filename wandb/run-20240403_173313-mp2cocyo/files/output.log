@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "finefune.py", line 384, in <module>
+    train()
+  File "finefune.py", line 288, in train
+    lr, gamma, epoch, dropout = wandb.config["lr"],  wandb.config["gamma"], wandb.config["epoch"], wandb.config["dropout"]
+  File "/home/wg25r/.local/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+KeyError: 'lr'
+Traceback (most recent call last):
+  File "finefune.py", line 384, in <module>
+    train()
+  File "finefune.py", line 288, in train
+    lr, gamma, epoch, dropout = wandb.config["lr"],  wandb.config["gamma"], wandb.config["epoch"], wandb.config["dropout"]
+  File "/home/wg25r/.local/lib/python3.8/site-packages/wandb/sdk/wandb_config.py", line 130, in __getitem__
+    return self._items[key]
+KeyError: 'lr'
